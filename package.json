@@ -1,0 +1,19 @@
+{
+  "name": "jamesproxy",
+  "version": "1.0.0",
+  "description": "A proxy for a best buy clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestbuyclone/jamesProxy.git"
+  },
+  "author": "James Dempsey",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bestbuyclone/jamesProxy/issues"
+  },
+  "homepage": "https://github.com/bestbuyclone/jamesProxy#readme"
+}
