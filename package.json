@@ -4,7 +4,7 @@
   "description": "A proxy for a best buy clone",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
+    "watch": "rimraf dist && webpack --watch",
     "start": "webpack-dev-server  --open --color ",
     "build": "rimraf dist &&  webpack --progress --profile",
     "server": "nodemon server/server.js"
