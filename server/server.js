@@ -13,7 +13,7 @@ app.use(
 app.get('/test' (req, res) => {
   console.log('initial test works')
   res.send("doink")
-})
+});
 
 app.listen(port, () => {
   console.log(`Best Buy Clone server active on port ${port}`);

@@ -7,8 +7,9 @@
     "watch": "rimraf dist && webpack --watch",
     "start": "webpack-dev-server  --open --color ",
     "build": "rimraf dist &&  webpack --progress --profile",
+    "build:prod": "webpack --production",
     "server": "nodemon server/server.js",
-    "server:prod": "npm run build && node server/server.js"
+    "server:prod": "npm run build:prod && node server/server.js"
   },
   "repository": {
     "type": "git",
