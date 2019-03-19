@@ -1,8 +1,19 @@
 import React from "react";
+import axios from "axios";
 //testing docker build
 class App extends React.Component {
   constructor(props) {
     super(props);
+  }
+  componentDidMount() {
+    axios
+      .get("/test")
+      .then(data => {
+        console.log("yep it loaded");
+      })
+      .catch(err => {
+        console.log("failed initial get");
+      });
   }
 
   render() {
